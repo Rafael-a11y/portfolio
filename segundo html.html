@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Segundo html</title>
+        <link rel="stylesheet" href="normalize.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+      style é um atributo global para estilização rápida <SPAN> serve apenas para agrupar elementos para fim de 
+        estilização com class e id, similar ao <DIV> porém div é um elemento de nível de bloco, enquanto span é um
+          elemento de nível de linha
+
+      <span style="font-size: 32px; margin: 21px 0;">Is this a top level heading?</span>
+      <h1>Is this a top level heading with h1</h1>
+      <h1 style="font-size: 32px; margin: 21px 0;">Is this a top level heading with h1 and style property</h1>
+      <p style="font-size: 32px; margin: 21px 0;">Is this a top level heading with p and style property</p>
+
+      <article>
+            <h4>Um artigo realmente impressionante</h4>
+            <p>Lotes de texto incríveis.</p>
+      </article>
+
+      <aside>
+        <p>Algum conteudo relacionado a um &lt;article&gt;</p>
+      </aside>  
+      <!-- DETAILS serve para fornecer informações adicionais ao usuário, SUMARY serve como legenda de DETAILS -->
+      <details>
+        <summary class="sumario-detalhes">Alguns detalhes</summary>
+          <p>Mais informações sobre os detalhes.</p>
+      </details>
+
+      <details open="true">
+        <summary>Sumário</summary>
+        <p>Um parágrafo no sumário</p>
+
+        <figure>
+          <img src="Imagem.png" alt="Joana Santos da Alura." />
+        </figure>
+      </details>
+
+      <figure>
+        <img src="Imagem.png" alt="Joana Santos da Alura." />
+        <figcaption>Joana Santos programando</figcaption>
+      </figure>
+
+          <!--BOLD serve para definir o peso do texto, BLOCLQUOTE para citações longas-->
+      <figure>
+        <figcaption><b>Edsger Dijkstra:</b></figcaption>  
+        <blockquote>
+          Se a depuração é o processo de remoção de bugs de software, então a programação deve
+          ser o processo de colocá-los.
+        </blockquote>
+      </figure>
+
+      <blockquote cite="http://developer.mozilla.org">
+        <p>z'Esta é uma citação tirada da
+        Mozilla Developer Center.</p>
+      </blockquote>
+      <!-- MARK serve para marcar, EM para dar ênfase em itálico -->
+      <p> <mark>Um parágrafo qualquer</mark>
+          <strong> seguido de um strong</strong>
+          <em> seguido de um texto de ensafse</em>
+      </p>
+
+      <p>O elemento &lt;mark&gt; é usado para <mark>destacar</mark> partes do texto</p>
+      <br>
+      <nav>
+        <ul>
+          <li><a href="#">Página inicial</a></li>
+          <li><a href="#">Sobre</a></li>
+          <li><a href="#Section_furter_Down">Contato</a></li>
+        </ul>
+      </nav>
+
+      <section>
+        <h1>Cabeçalho</h1>
+        <p>Um monte de conteúdo incrível</p>
+      </section>
+
+      <details>
+        <summary>Alguns detalhes</summary>
+        <p>Mais informações sobre os detalhes.</p>
+      </details>
+
+      <p>The concert starts at <time>20</time></p>
+
+      <article>
+        <p>This article was created on <time pubdate>2011-01-28</time>.</p>
+      </article>
+
+      <p>The concert took place on <time datetime="2001-05-15 19:00">15 de Maio</time>.</p> 
+      <br>
+      <button>
+        Clique aqui
+      </button>
+    </body>
+</html>
