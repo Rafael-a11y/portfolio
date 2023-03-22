@@ -1,7 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
 
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
 body
 {
+    height: 100vh;
     background-color: #000000;
     height: 100vh;
     box-sizing: border-box;
@@ -10,15 +17,17 @@ body
 {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     margin: 10% 20%;
-    column-gap: 90px;
+    column-gap: 40px;
     
 }
 
 .corpo__secao
 {
+    width: 615px;
+    height: 482px;
     display: flex;
     flex-direction: column;
     gap: 40px 0;
@@ -49,7 +58,7 @@ strong
     display: flex;
     justify-content: space-between;
     align-items: stretch;
-    column-gap: 50px;;
+    column-gap: 60px;;
 }
 
 .corpo__secao__links__link
