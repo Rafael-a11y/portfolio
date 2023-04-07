@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+:root
+{
+    --bg-color: #e8ecc7;
+
+    --tamanho-fonte-primario: 64px;
+    --tamanho-fonte-secundario: 24px;
+
+    --familia-fonte: 'Montserrat', 'sans-serif';
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+header
+{
+    display: flex;
+    flex-direction: row;
+}
+.barra-lateral
+{
+    padding: 0% 0% 0% 9%;
+    background-color: var(--bg-color);
+}
+
+.cabecalho
+{
+    
+    display: flex;
+    padding:5% 0 0 6%;
+    column-gap: 80px;
+}
+
+.cabecalho__link
+{
+    font-family: var(--familia-fonte);
+    font-size: var(--tamanho-fonte-secundario);
+    font-weight: 600;
+    color: var(--bg-color);
+    text-decoration: none;
+}
+
+main
+{
+    display: flex;
+}
+
+section
+{
+    padding: 30px 0 0 80px;
+}
+
+h1
+{
+    font-size:var(--tamanho-fonte-primario);
+}
+
+.espacamento-duas-quebras
+{
+    height: 34px;
+}
+
+h2
+{
+    text-decoration: underline;
+}
+
+.espacamento-uma-quebra
+{
+    height: 17px;
+}
+
+.lista-contatos
+{
+    list-style-type: none;
+}
+
+
+
+.lista-desordenada
+{
+    margin-left: 25px;
+}
+
+a
+{
+    text-decoration: none;
+    color: #000000;
+}
+
+.educacao
+{
+    margin-left: 12px;
+}
+
+p
+{
+    margin-left: 10px;
+}
+
+.rodape
+{
+    padding: 24px;
+    color: #000000;
+    background-color: var(--bg-color);
+    text-align: center;
+    font-family: var(--familia-fonte);
+    font-size: var(--tamanho-fonte-secundario);
+    font-weight: 400;
+}
