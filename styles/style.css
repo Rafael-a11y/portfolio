@@ -10,8 +10,9 @@
     --fonte-primaria: 'Krona One', sans-serif;
     --fonte-secundaria: 'Montserrat', sans-serif;
 
-    --tamanho-fonte-primaria: 36px;
-    --tamanho-fonte-secundaria: 24px;
+    --tamanho-fonte-primaria: 2.25rem;
+    --tamanho-fonte-secundaria: 1.5rem;
+    --tamanho-fonte-primaria-mobile: 1.5rem;
 
     --peso-fonte-regular: 400;
     --peso-fonte-semibold: 600;
@@ -51,7 +52,7 @@ body
     justify-content: space-between;
     align-items: center;
     padding: 5% 15%;
-    column-gap: 50px;
+    column-gap: 3.25rem;
     
 }
 
@@ -75,7 +76,7 @@ body
 {
     transition: 1s;
     cursor: pointer;
-    font-size: 39px;
+    font-size: 2.43rem;
 
 }
 
@@ -95,7 +96,7 @@ strong
 {
     transition: 1s;
     cursor: pointer;
-    font-size: 25px;
+    font-size: 1.56rem;
 }
 
 .apresentacao__conteudo__links
@@ -143,4 +144,38 @@ strong
    font-weight: var(--peso-fonte-regular);
    background-color: var(--cor-terciaria);
    padding: 23px 0;
+}
+
+/*Para Galaxy S20 Ultra*/
+@media (max-width: 412px) and (max-height: 915px)
+{
+    .cabecalho
+    {
+        justify-content: space-around;
+        column-gap: 0;
+        padding: 15% 0%;
+    }
+
+    .apresentacao
+    {
+        flex-direction: column-reverse;
+        column-gap: 0%;
+        row-gap: 3rem;
+        
+        
+    }
+
+    .apresentacao__conteudo
+    {
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 40px 0;
+    }
+
+    .apresentacao__conteudo__titulo
+    {
+        font-size: var(--tamanho-fonte-primaria-mobile);
+    }
+
 }

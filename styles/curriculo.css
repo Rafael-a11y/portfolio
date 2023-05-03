@@ -4,8 +4,8 @@
 {
     --bg-color: #e8ecc7;
 
-    --tamanho-fonte-primario: 64px;
-    --tamanho-fonte-secundario: 24px;
+    --tamanho-fonte-primario: 4rem;
+    --tamanho-fonte-secundario: 1.5rem;
 
     --familia-fonte: 'Montserrat', 'sans-serif';
 }
@@ -111,4 +111,21 @@ p
     font-family: var(--familia-fonte);
     font-size: var(--tamanho-fonte-secundario);
     font-weight: 400;
+}
+
+@media (max-width: 412px) and (max-height: 915px)
+{
+    .cabecalho
+    {
+    width: 100%;
+    justify-content: space-around;
+    padding:15% 0%;
+    column-gap: 0;
+    }
+
+    .rodape
+    {
+        width: 100%;
+        font-size: 20px;
+    }
 }
