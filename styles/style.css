@@ -149,6 +149,12 @@ strong
 /*Para Galaxy S20 Ultra*/
 @media (max-width: 412px) and (max-height: 915px)
 {
+
+    body
+    {
+        overflow-x: hidden;
+    }
+
     .cabecalho
     {
         justify-content: space-around;

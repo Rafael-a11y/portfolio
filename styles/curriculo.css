@@ -115,6 +115,11 @@ p
 
 @media (max-width: 412px) and (max-height: 915px)
 {
+    body
+    {
+        overflow-x: hidden;
+    }
+
     .cabecalho
     {
     width: 100%;
@@ -134,7 +139,7 @@ p
 
     .rodape
     {
-        width: 100%;
+        width: auto;
         font-size: 20px;
     }
 }
