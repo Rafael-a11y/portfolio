@@ -72,14 +72,6 @@ body
 
 }
 
-.apresentacao__conteudo__titulo:hover
-{
-    transition: 1s;
-    cursor: pointer;
-    font-size: 2.43rem;
-
-}
-
 strong
 {
     color: var(--cor-terciaria);
@@ -90,13 +82,6 @@ strong
     color: var(--cor-secundaria);
     font-size: var(--tamanho-fonte-secundaria);
     font-family: var(--fonte-secundaria);
-}
-
-.apresentacao__conteudo__texto:hover
-{
-    transition: 1s;
-    cursor: pointer;
-    font-size: 1.56rem;
 }
 
 .apresentacao__conteudo__links
@@ -129,13 +114,6 @@ strong
     border-radius: 8px;
 }
 
-.apresentacao__conteudo__links__link:hover
-{
-    transition: 1s;
-    cursor: pointer;
-    background-color: #272727;
-}
-
 .rodape
 {
    text-align: center;
@@ -144,6 +122,32 @@ strong
    font-weight: var(--peso-fonte-regular);
    background-color: var(--cor-terciaria);
    padding: 23px 0;
+}
+
+/*Para ativar o hover apenas em telas de pc*/
+@media (min-width: 1024px)
+{
+    .apresentacao__conteudo__titulo:hover
+    {
+        transition: 1s;
+        cursor: pointer;
+        font-size: 2.43rem;
+
+    }
+
+    .apresentacao__conteudo__texto:hover
+    {
+        transition: 1s;
+        cursor: pointer;
+        font-size: 1.56rem;
+    }
+
+    .apresentacao__conteudo__links__link:hover
+    {
+        transition: 1s;
+        cursor: pointer;
+        background-color: #272727;
+    }
 }
 
 /*Para Galaxy S20 Ultra*/
