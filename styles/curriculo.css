@@ -115,12 +115,6 @@ p
 
 @media (max-width: 412px) and (max-height: 915px)
 {
-
-    .barra-lateral
-    {
-        padding: 0;
-    }
-
     .cabecalho
     {
     width: 100%;
