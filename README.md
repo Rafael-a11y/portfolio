@@ -12,7 +12,7 @@ Criei esta página web com o intuito de aprender CSS e HTML
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
 
-![Portfólio](https://github.com/Rafael-a11y/portfolio/assets/63820646/29a77e86-f238-4b11-b167-03d626d7bdc5)
+![Portfólio](https://github.com/Rafael-a11y/portfolio/assets/63820646/29a77e86-f238-4b11-b167-03d626d7bdc5#vitrinedev)
 
 
 ## ✔️ Detalhes do projeto
